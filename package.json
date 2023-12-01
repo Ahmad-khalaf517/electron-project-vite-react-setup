@@ -47,11 +47,11 @@
     "vite-plugin-eslint": "^1.8.1"
   },
   "lint-staged": {
-    "./renderer/src/**/*.{js,tsx,ts,tsx,jsx}": [
+    "./src/**/*.{js,tsx,ts,tsx,jsx}": [
       "prettier --write",
       "eslint --cache  --fix"
     ],
-    "./renderer/src/**/*.{css,scss}": "prettier --write"
+    "./src/**/*.{css,scss}": "prettier --write"
   },
   "packageManager": "yarn@1.22.17"
 }

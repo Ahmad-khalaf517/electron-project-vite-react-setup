@@ -52,5 +52,6 @@
       "eslint --cache  --fix"
     ],
     "./renderer/src/**/*.{css,scss}": "prettier --write"
-  }
+  },
+  "packageManager": "yarn@1.22.17"
 }
